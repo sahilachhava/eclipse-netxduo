@@ -3920,6 +3920,7 @@ VOID  _nx_http_server_put_process(NX_HTTP_SERVER *server_ptr, NX_PACKET *packet_
 
 UINT        status;
 ULONG       length;
+ULONG       consumed_length = 0;
 UINT        offset;
 CHAR        *name_ptr;
 CHAR        *password_ptr;
@@ -4115,8 +4116,8 @@ UINT        temp_realm_length = 0;
         _nx_http_server_response_send(server_ptr, NX_HTTP_STATUS_INTERNAL_ERROR, sizeof(NX_HTTP_STATUS_INTERNAL_ERROR) - 1, 
                                       "NetX HTTP File Create Failed", sizeof("NetX HTTP File Create Failed") - 1, NX_NULL, 0);
 
-        /* Error, return to caller.  */
-        return;
+        /* Error, return to caller. */
+        goto put_process_end;
     }
 
     /* Open the specified file for writing.  */
@@ -4130,8 +4131,8 @@ UINT        temp_realm_length = 0;
         _nx_http_server_response_send(server_ptr, NX_HTTP_STATUS_INTERNAL_ERROR, sizeof(NX_HTTP_STATUS_INTERNAL_ERROR) - 1, 
                                       "NetX HTTP File Open Failed", sizeof("NetX HTTP File Open Failed") - 1, NX_NULL, 0);
 
-        /* Error, return to caller.  */
-        return;
+        /* Error, return to caller. */
+        goto put_process_end;
     }
 
 
@@ -4151,12 +4152,27 @@ UINT        temp_realm_length = 0;
             _nx_http_server_response_send(server_ptr, NX_HTTP_STATUS_INTERNAL_ERROR, sizeof(NX_HTTP_STATUS_INTERNAL_ERROR) - 1, 
                                           "NetX HTTP File Write Failed", sizeof("NetX HTTP File Write Failed") - 1, NX_NULL, 0);
 
-            /* Error, return to caller.  */
-            return;
+            /* Error, return to caller. */
+            goto put_process_end;
         }
 
         /* Update the length.  */
-        length =  length - ((ULONG)(packet_ptr -> nx_packet_append_ptr - packet_ptr -> nx_packet_prepend_ptr) - offset);
+        consumed_length = ((ULONG)(packet_ptr -> nx_packet_append_ptr - packet_ptr -> nx_packet_prepend_ptr) - offset);
+        if ((length - consumed_length) > length)
+        {
+            /* Underflow error has occurred. */
+
+            /* Send response back to client. */
+            _nx_http_server_response_send(server_ptr, NX_HTTP_STATUS_BAD_REQUEST,
+                                            sizeof(NX_HTTP_STATUS_BAD_REQUEST) - 1,
+                                            "NetX HTTP Content Length",
+                                            sizeof("NetX HTTP Content Length") - 1,
+                                            NX_NULL, 0);
+
+            status = NX_UNDERFLOW;
+            goto put_process_end;
+        }
+        length -= consumed_length;
 
         /* Increment the bytes received count.  */
         server_ptr -> nx_http_server_total_bytes_received =  server_ptr -> nx_http_server_total_bytes_received + 
@@ -4183,11 +4199,26 @@ UINT        temp_realm_length = 0;
                                           "NetX HTTP File Write Failed", sizeof("NetX HTTP File Write Failed") - 1, NX_NULL, 0);
 
             /* Error, return to caller.  */
-            return;
+            goto put_process_end;
         }
 
         /* Update the length.  */
-        length =  length - (ULONG)(next_packet_ptr -> nx_packet_append_ptr - next_packet_ptr -> nx_packet_prepend_ptr);
+        consumed_length = (ULONG)(next_packet_ptr -> nx_packet_append_ptr - next_packet_ptr -> nx_packet_prepend_ptr);
+        if ((length - consumed_length) > length)
+        {
+            /* Underflow error has occurred. */
+
+            /* Send response back to client. */
+            _nx_http_server_response_send(server_ptr, NX_HTTP_STATUS_BAD_REQUEST,
+                                            sizeof(NX_HTTP_STATUS_BAD_REQUEST) - 1,
+                                            "NetX HTTP Content Length",
+                                            sizeof("NetX HTTP Content Length") - 1,
+                                            NX_NULL, 0);
+
+            status = NX_UNDERFLOW;
+            goto put_process_end;
+        }
+        length -= consumed_length;
 
         /* Increment the bytes received count.  */
         server_ptr -> nx_http_server_total_bytes_received =  server_ptr -> nx_http_server_total_bytes_received +
@@ -4214,7 +4245,7 @@ UINT        temp_realm_length = 0;
                                           "NetX HTTP Receive Timeout", sizeof("NetX HTTP Receive Timeout") - 1, NX_NULL, 0);
 
             /* Error, return to caller.  */
-            return;
+            goto put_process_end;
         }
 
         /* Loop to write the packet chain out to the file.  */
@@ -4238,11 +4269,29 @@ UINT        temp_realm_length = 0;
                 nx_packet_release(data_packet_ptr);
 
                 /* Error, return to caller.  */
-                return;
+                goto put_process_end;
             }
 
             /* Update the length.  */
-            length =  length - (UINT)(next_packet_ptr -> nx_packet_append_ptr - next_packet_ptr -> nx_packet_prepend_ptr);
+            consumed_length = (ULONG)(next_packet_ptr -> nx_packet_append_ptr - next_packet_ptr -> nx_packet_prepend_ptr);
+            if ((length - consumed_length) > length)
+            {
+                /* Underflow error has occurred. */
+
+                /* Send response back to client. */
+                _nx_http_server_response_send(server_ptr, NX_HTTP_STATUS_BAD_REQUEST,
+                                                sizeof(NX_HTTP_STATUS_BAD_REQUEST) - 1,
+                                                "NetX HTTP Content Length",
+                                                sizeof("NetX HTTP Content Length") - 1,
+                                                NX_NULL, 0);
+
+                /* Release the previous data packet. */
+                nx_packet_release(data_packet_ptr);
+
+                status = NX_UNDERFLOW;
+                goto put_process_end;
+            }
+            length -= consumed_length;
 
             /* Increment the bytes received count.  */
             server_ptr -> nx_http_server_total_bytes_received =  server_ptr -> nx_http_server_total_bytes_received +
@@ -4261,11 +4310,9 @@ UINT        temp_realm_length = 0;
         nx_packet_release(data_packet_ptr);
     }
 
-    /* Success, at this point close the file and prepare a successful response for the client.  */
-    fx_file_close(&(server_ptr -> nx_http_server_file));
-
-
-    /* Now build a response header.  */
+    /* Now build a response header. There is no need to check for success up to this
+    point. If an error has occurred earlier in this function, execution will have
+    jumped straight to the put_process_end label. */
     status = _nx_http_server_generate_response_header(server_ptr, &data_packet_ptr, NX_HTTP_STATUS_OK, sizeof(NX_HTTP_STATUS_OK) - 1, 0, NX_NULL, 0, NX_NULL, 0);
     if (status == NX_SUCCESS)
     {
@@ -4282,6 +4329,9 @@ UINT        temp_realm_length = 0;
         }
     }
 
+    put_process_end:
+        /* Always attempt to clean up by closing the file. */
+        fx_file_close(&(server_ptr -> nx_http_server_file));
 }
 
 
