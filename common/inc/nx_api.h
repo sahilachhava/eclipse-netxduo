@@ -112,7 +112,7 @@
 /*                                            resulting in version 6.4.1  */
 /*  02-19-2025      Frédéric Desbiens       Modified comment(s),          */
 /*                                            update version number,      */
-/*                                            resulting in version /*                                                           6.4.3        */  */
+/*                                            resulting in version 6.4.2  */
 /*                                                                        */
 /**************************************************************************/
 
