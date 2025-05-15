@@ -4,7 +4,7 @@
 	branch = 1.0.0
 [submodule "test/cmake/filex"]
 	path = test/cmake/filex
-	url = gh:eclipse-threadx/filex.git
+	url = https://github.com/eclipse-threadx/filex.git
 [submodule "test/cmake/threadx"]
 	path = test/cmake/threadx
-	url = gh:eclipse-threadx/threadx.git
+	url = https://github.com/eclipse-threadx/threadx.git
