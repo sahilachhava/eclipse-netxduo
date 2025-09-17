@@ -1,0 +1,736 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 28,
+  "total": 28,
+  "issues": [
+    {
+      "id": "20001",
+      "key": "REQ-001",
+      "fields": {
+        "summary": "Dual IPv4/IPv6 Support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must provide comprehensive dual-stack IPv4 and IPv6 network protocol support for embedded applications. Enables modern network connectivity while maintaining backward compatibility.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20002",
+      "key": "REQ-002",
+      "fields": {
+        "summary": "Real-time Performance",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Network stack must be designed specifically for deeply embedded real-time applications with deterministic behavior. Critical for time-sensitive industrial and IoT applications.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20003",
+      "key": "REQ-003",
+      "fields": {
+        "summary": "ThreadX Integration",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must be fully integrated with ThreadX real-time kernel as the underlying operating system. Provides seamless RTOS integration for embedded systems.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20004",
+      "key": "REQ-004",
+      "fields": {
+        "summary": "Resource Optimization",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must be resource limitation aware and optimized for memory-constrained embedded devices. Essential for microcontroller-based applications.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20005",
+      "key": "REQ-005",
+      "fields": {
+        "summary": "CMake Build System",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support CMake-based build system with composable components for integration into device applications. Enables flexible project integration.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20006",
+      "key": "REQ-006",
+      "fields": {
+        "summary": "Cross-Platform Toolchain Support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must support multiple toolchains including Arm GNU Toolchain, IAR, STM32Cube, MCUXpresso. Required for diverse development environments.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20007",
+      "key": "REQ-007",
+      "fields": {
+        "summary": "User Configuration",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide nx_user.h configuration file for customizing features and addons. Allows tailored builds for specific application needs.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20008",
+      "key": "REQ-008",
+      "fields": {
+        "summary": "Architecture Portability",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support multiple CPU architectures through port-specific implementations in ports/ directory. Critical for hardware platform flexibility.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20009",
+      "key": "REQ-009",
+      "fields": {
+        "summary": "Azure IoT Integration",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide Azure IoT Middleware with smart client interfaces for IoTHub and Device Provisioning Service. Enables cloud connectivity for IoT applications.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20010",
+      "key": "REQ-010",
+      "fields": {
+        "summary": "IoT Plug and Play Support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must support IoT Plug and Play data format including Telemetry, Properties, and Commands. Required for standardized IoT device integration.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20011",
+      "key": "REQ-011",
+      "fields": {
+        "summary": "Multiple Authentication Methods",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support both SAS Token and X.509 client certificate authentication for secure connections. Provides flexible security options.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20012",
+      "key": "REQ-012",
+      "fields": {
+        "summary": "Protocol Addon Support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must support modular protocol addons including DHCP, DNS, HTTP, MQTT, FTP, POP3, PPP, SNTP. Enables comprehensive network service support.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20013",
+      "key": "REQ-013",
+      "fields": {
+        "summary": "TLS/DTLS Support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide NetX Secure with TLS/DTLS encryption capabilities for secure communications. Essential for protecting data in transit.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20014",
+      "key": "REQ-014",
+      "fields": {
+        "summary": "Cryptographic Libraries",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must include comprehensive crypto libraries for encryption, hashing, and digital signatures. Required for security implementations.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20015",
+      "key": "REQ-015",
+      "fields": {
+        "summary": "Certificate Management",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support X.509 certificate handling for both RSA and ECC key types. Critical for PKI-based authentication.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20016",
+      "key": "REQ-016",
+      "fields": {
+        "summary": "Security Vulnerability Reporting",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must follow Eclipse Foundation vulnerability reporting policy for security issues. Ensures responsible security management.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20017",
+      "key": "REQ-017",
+      "fields": {
+        "summary": "Sample Applications",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide comprehensive sample codes demonstrating usage of various addons and protocols. Essential for developer onboarding.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20018",
+      "key": "REQ-018",
+      "fields": {
+        "summary": "Device Update Support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must support Device Update for IoT Hub agent for over-the-air (OTA) updates. Critical for remote device management.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20019",
+      "key": "REQ-019",
+      "fields": {
+        "summary": "JSON Processing",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must provide JSON parsers for handling IoT data formats and configurations. Required for modern IoT communication.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20020",
+      "key": "REQ-020",
+      "fields": {
+        "summary": "Multi-vendor SDK Integration",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must be integrated into semiconductor SDKs from STMicroelectronics, NXP, Renesas, and Microchip. Ensures broad hardware ecosystem support.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20021",
+      "key": "REQ-021",
+      "fields": {
+        "summary": "MIT License Compliance",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "All code must be licensed under MIT License for permissive open-source usage. Enables commercial and open-source adoption.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20022",
+      "key": "REQ-022",
+      "fields": {
+        "summary": "Eclipse Foundation Governance",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Project must follow Eclipse Foundation development processes and IP policies. Ensures proper open-source governance.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20023",
+      "key": "REQ-023",
+      "fields": {
+        "summary": "Version Management",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must maintain clear version numbering with GA releases tagged in GitHub releases. Critical for production deployment tracking.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20024",
+      "key": "REQ-024",
+      "fields": {
+        "summary": "Safety Certification",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must provide vendor-neutral, safety-certified components for critical applications. Required for regulated industries.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20025",
+      "key": "REQ-025",
+      "fields": {
+        "summary": "Time-Sensitive Networking (TSN)",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support TSN protocols for industrial automation and deterministic networking. Critical for Industry 4.0 applications.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20026",
+      "key": "REQ-026",
+      "fields": {
+        "summary": "Network Address Translation (NAT)",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must provide NAT functionality for network topology management. Required for complex network configurations.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20027",
+      "key": "REQ-027",
+      "fields": {
+        "summary": "Multicast Support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "Must support IGMP and multicast protocols for group communications. Essential for industrial and multimedia applications.",
+        "verifiableByCodeOnly": true
+      }
+    },
+    {
+      "id": "20028",
+      "key": "REQ-028",
+      "fields": {
+        "summary": "HTTP Proxy Support",
+        "issuetype": {
+          "id": "100",
+          "description": "Software design requirement",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "approved",
+          "name": "Approved"
+        },
+        "assignee": {
+          "displayName": "Unassigned",
+          "accountId": "unassigned"
+        },
+        "reporter": {
+          "displayName": "System",
+          "accountId": "system"
+        },
+        "description": "System must support HTTP proxy functionality for network routing and filtering. Required for enterprise network environments.",
+        "verifiableByCodeOnly": true
+      }
+    }
+  ]
+}
