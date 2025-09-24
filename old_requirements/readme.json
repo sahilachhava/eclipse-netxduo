@@ -1,11 +1,11 @@
 {
   "expand": "schema,names",
   "startAt": 0,
-  "maxResults": 78,
-  "total": 78,
+  "maxResults": 50,
+  "total": 50,
   "issues": [
     {
-      "id": "50001",
+      "id": "30001",
       "key": "REQ-DOC-001",
       "fields": {
         "summary": "ThreadX RTOS Dependency",
@@ -31,7 +31,7 @@
       }
     },
     {
-      "id": "50002",
+      "id": "30002",
       "key": "REQ-DOC-002",
       "fields": {
         "summary": "Memory Requirements",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": "50003",
+      "id": "30003",
       "key": "REQ-DOC-003",
       "fields": {
         "summary": "Dual IPv4/IPv6 Support",
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "50004",
+      "id": "30004",
       "key": "REQ-DOC-004",
       "fields": {
         "summary": "TCP/UDP Protocol Support",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "50005",
+      "id": "30005",
       "key": "REQ-DOC-005",
       "fields": {
         "summary": "Zero-Copy Implementation",
@@ -135,7 +135,7 @@
       }
     },
     {
-      "id": "50006",
+      "id": "30006",
       "key": "REQ-DOC-006",
       "fields": {
         "summary": "Network Performance Targets",
@@ -161,7 +161,7 @@
       }
     },
     {
-      "id": "50007",
+      "id": "30007",
       "key": "REQ-DOC-007",
       "fields": {
         "summary": "DHCP Client/Server Support",
@@ -187,7 +187,7 @@
       }
     },
     {
-      "id": "50008",
+      "id": "30008",
       "key": "REQ-DOC-008",
       "fields": {
         "summary": "TLS/DTLS Security Support",
@@ -213,7 +213,7 @@
       }
     },
     {
-      "id": "50009",
+      "id": "30009",
       "key": "REQ-DOC-009",
       "fields": {
         "summary": "MQTT Protocol Support",
@@ -239,7 +239,7 @@
       }
     },
     {
-      "id": "50010",
+      "id": "30010",
       "key": "REQ-DOC-010",
       "fields": {
         "summary": "HTTP/HTTPS Web Support",
@@ -265,7 +265,7 @@
       }
     },
     {
-      "id": "50011",
+      "id": "30011",
       "key": "REQ-DOC-011",
       "fields": {
         "summary": "DNS Client Support",
@@ -291,7 +291,7 @@
       }
     },
     {
-      "id": "50012",
+      "id": "30012",
       "key": "REQ-DOC-012",
       "fields": {
         "summary": "Multi-Interface Support",
@@ -317,7 +317,7 @@
       }
     },
     {
-      "id": "50013",
+      "id": "30013",
       "key": "REQ-DOC-013",
       "fields": {
         "summary": "ANSI C Compliance",
@@ -343,7 +343,7 @@
       }
     },
     {
-      "id": "50014",
+      "id": "30014",
       "key": "REQ-DOC-014",
       "fields": {
         "summary": "IPv6 Ready Certification",
@@ -369,7 +369,7 @@
       }
     },
     {
-      "id": "50015",
+      "id": "30015",
       "key": "REQ-DOC-015",
       "fields": {
         "summary": "Safety Critical Certification",
@@ -395,7 +395,7 @@
       }
     },
     {
-      "id": "50016",
+      "id": "30016",
       "key": "REQ-DOC-016",
       "fields": {
         "summary": "SMTP Client Support",
@@ -421,7 +421,7 @@
       }
     },
     {
-      "id": "50017",
+      "id": "30017",
       "key": "REQ-DOC-017",
       "fields": {
         "summary": "NAT Support",
@@ -447,7 +447,7 @@
       }
     },
     {
-      "id": "50018",
+      "id": "30018",
       "key": "REQ-DOC-018",
       "fields": {
         "summary": "SNMP Agent Support",
@@ -473,7 +473,7 @@
       }
     },
     {
-      "id": "50019",
+      "id": "30019",
       "key": "REQ-DOC-019",
       "fields": {
         "summary": "FTP/TFTP File Transfer",
@@ -499,7 +499,7 @@
       }
     },
     {
-      "id": "50020",
+      "id": "30020",
       "key": "REQ-DOC-020",
       "fields": {
         "summary": "SNTP Time Synchronization",
@@ -525,7 +525,7 @@
       }
     },
     {
-      "id": "50021",
+      "id": "30021",
       "key": "REQ-DOC-021",
       "fields": {
         "summary": "PPP/PPPoE Support",
@@ -551,7 +551,7 @@
       }
     },
     {
-      "id": "50022",
+      "id": "30022",
       "key": "REQ-DOC-022",
       "fields": {
         "summary": "IPsec Security Protocol",
@@ -577,7 +577,7 @@
       }
     },
     {
-      "id": "50023",
+      "id": "30023",
       "key": "REQ-DOC-023",
       "fields": {
         "summary": "Telnet Protocol Support",
@@ -603,7 +603,7 @@
       }
     },
     {
-      "id": "50024",
+      "id": "30024",
       "key": "REQ-DOC-024",
       "fields": {
         "summary": "AutoIP Address Assignment",
@@ -629,7 +629,7 @@
       }
     },
     {
-      "id": "50025",
+      "id": "30025",
       "key": "REQ-DOC-025",
       "fields": {
         "summary": "Azure IoT Integration",
@@ -655,7 +655,7 @@
       }
     },
     {
-      "id": "50026",
+      "id": "30026",
       "key": "REQ-DOC-026",
       "fields": {
         "summary": "POP3 Email Client",
@@ -681,7 +681,7 @@
       }
     },
     {
-      "id": "50027",
+      "id": "30027",
       "key": "REQ-DOC-027",
       "fields": {
         "summary": "Hardware Checksum Offloading",
@@ -707,7 +707,7 @@
       }
     },
     {
-      "id": "50028",
+      "id": "30028",
       "key": "REQ-DOC-028",
       "fields": {
         "summary": "BSD Socket API Compatibility",
@@ -733,7 +733,7 @@
       }
     },
     {
-      "id": "50029",
+      "id": "30029",
       "key": "REQ-DOC-029",
       "fields": {
         "summary": "Configurable Error Checking",
@@ -759,7 +759,7 @@
       }
     },
     {
-      "id": "50030",
+      "id": "30030",
       "key": "REQ-DOC-030",
       "fields": {
         "summary": "Real-time Streaming Support",
@@ -785,7 +785,7 @@
       }
     },
     {
-      "id": "50031",
+      "id": "30031",
       "key": "REQ-DOC-031",
       "fields": {
         "summary": "Precision Time Protocol",
@@ -811,7 +811,7 @@
       }
     },
     {
-      "id": "50032",
+      "id": "30032",
       "key": "REQ-DOC-032",
       "fields": {
         "summary": "Packet Pool Management",
@@ -837,7 +837,7 @@
       }
     },
     {
-      "id": "50033",
+      "id": "30033",
       "key": "REQ-DOC-033",
       "fields": {
         "summary": "IPv6 Stateless Autoconfiguration",
@@ -863,7 +863,7 @@
       }
     },
     {
-      "id": "50034",
+      "id": "30034",
       "key": "REQ-DOC-034",
       "fields": {
         "summary": "Network Driver Interface",
@@ -889,7 +889,7 @@
       }
     },
     {
-      "id": "50035",
+      "id": "30035",
       "key": "REQ-DOC-035",
       "fields": {
         "summary": "Multicast Group Management",
@@ -915,7 +915,7 @@
       }
     },
     {
-      "id": "50036",
+      "id": "30036",
       "key": "REQ-DOC-036",
       "fields": {
         "summary": "TCP Window Scaling",
@@ -941,7 +941,7 @@
       }
     },
     {
-      "id": "50037",
+      "id": "30037",
       "key": "REQ-DOC-037",
       "fields": {
         "summary": "IP Fragmentation Support",
@@ -967,7 +967,7 @@
       }
     },
     {
-      "id": "50038",
+      "id": "30038",
       "key": "REQ-DOC-038",
       "fields": {
         "summary": "Static Routing Support",
@@ -993,7 +993,7 @@
       }
     },
     {
-      "id": "50039",
+      "id": "30039",
       "key": "REQ-DOC-039",
       "fields": {
         "summary": "TCP Keepalive Mechanism",
@@ -1019,7 +1019,7 @@
       }
     },
     {
-      "id": "50040",
+      "id": "30040",
       "key": "REQ-DOC-040",
       "fields": {
         "summary": "Cryptographic Algorithm Support",
@@ -1045,7 +1045,7 @@
       }
     },
     {
-      "id": "50041",
+      "id": "30041",
       "key": "REQ-DOC-041",
       "fields": {
         "summary": "DHCPv6 Client/Server Support",
@@ -1071,7 +1071,7 @@
       }
     },
     {
-      "id": "50042",
+      "id": "30042",
       "key": "REQ-DOC-042",
       "fields": {
         "summary": "Path MTU Discovery",
@@ -1097,7 +1097,7 @@
       }
     },
     {
-      "id": "50043",
+      "id": "30043",
       "key": "REQ-DOC-043",
       "fields": {
         "summary": "Device Update for IoT Hub",
@@ -1123,7 +1123,7 @@
       }
     },
     {
-      "id": "50044",
+      "id": "30044",
       "key": "REQ-DOC-044",
       "fields": {
         "summary": "Microsoft Defender Integration",
@@ -1149,7 +1149,7 @@
       }
     },
     {
-      "id": "50045",
+      "id": "30045",
       "key": "REQ-DOC-045",
       "fields": {
         "summary": "UDP Fast Path Technology",
@@ -1175,7 +1175,7 @@
       }
     },
     {
-      "id": "50046",
+      "id": "30046",
       "key": "REQ-DOC-046",
       "fields": {
         "summary": "IxANVL Protocol Validation",
@@ -1201,7 +1201,7 @@
       }
     },
     {
-      "id": "50047",
+      "id": "30047",
       "key": "REQ-DOC-047",
       "fields": {
         "summary": "Loopback Interface Support",
@@ -1227,7 +1227,7 @@
       }
     },
     {
-      "id": "50048",
+      "id": "30048",
       "key": "REQ-DOC-048",
       "fields": {
         "summary": "Thread Priority Configuration",
@@ -1253,7 +1253,7 @@
       }
     },
     {
-      "id": "50049",
+      "id": "30049",
       "key": "REQ-DOC-049",
       "fields": {
         "summary": "Dual Packet Pool Support",
@@ -1279,7 +1279,7 @@
       }
     },
     {
-      "id": "50050",
+      "id": "30050",
       "key": "REQ-DOC-050",
       "fields": {
         "summary": "WebSocket Protocol Support",
@@ -1301,734 +1301,6 @@
           "accountId": "system"
         },
         "description": "WebSocket protocol support for real-time bidirectional web communication. Enables modern web application connectivity with low-latency messaging capabilities.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40001",
-      "key": "REQ-CODE-001",
-      "fields": {
-        "summary": "ThreadX RTOS Integration",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must depend on ThreadX real-time kernel and use ThreadX APIs for threading, synchronization, and memory management. Core requirement for all NetX functionality.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40002",
-      "key": "REQ-CODE-002",
-      "fields": {
-        "summary": "Packet Pool Management",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must implement NX_PACKET_POOL with configurable packet sizes and counts for network buffer management. Essential for network packet allocation and deallocation.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40003",
-      "key": "REQ-CODE-003",
-      "fields": {
-        "summary": "Dual IPv4/IPv6 Stack Implementation",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must support both IPv4 and IPv6 protocol stacks with unified API through NX_IP structure. Enables dual-stack networking with single interface.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40004",
-      "key": "REQ-CODE-004",
-      "fields": {
-        "summary": "TCP Socket State Machine",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Implementation must provide complete TCP state machine (CLOSED, LISTEN, SYN_SENT, ESTABLISHED, etc.) with window scaling and keepalive support. Critical for reliable TCP connections.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40005",
-      "key": "REQ-CODE-005",
-      "fields": {
-        "summary": "UDP Socket Implementation",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must implement lightweight UDP socket support with port binding and receive queue management. Required for connectionless communication protocols.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40006",
-      "key": "REQ-CODE-006",
-      "fields": {
-        "summary": "ARP Protocol Support",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must implement Address Resolution Protocol for IPv4 with ARP cache management and probe functionality. Essential for Ethernet-based IPv4 networking.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40007",
-      "key": "REQ-CODE-007",
-      "fields": {
-        "summary": "ICMP/ICMPv6 Implementation",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must support Internet Control Message Protocol for both IPv4 and IPv6 including ping, error reporting, and neighbor discovery. Required for network diagnostics and IPv6 functionality.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40008",
-      "key": "REQ-CODE-008",
-      "fields": {
-        "summary": "Network Interface Abstraction",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Implementation must provide NX_INTERFACE structure supporting multiple network interfaces with capability flags and driver binding. Enables multi-homed networking.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40009",
-      "key": "REQ-CODE-009",
-      "fields": {
-        "summary": "Configurable Feature Compilation",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must use conditional compilation macros (NX_*_ENABLE) to allow selective feature inclusion. Critical for memory-constrained embedded systems.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40010",
-      "key": "REQ-CODE-010",
-      "fields": {
-        "summary": "DHCP Client Implementation",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must provide DHCP client with state machine, lease management, and optional BOOTP support. Essential for automatic IP configuration.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40011",
-      "key": "REQ-CODE-011",
-      "fields": {
-        "summary": "MQTT Client Protocol",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Implementation must support MQTT v3.1.1 protocol with QoS levels, subscription management, and optional TLS security. Required for IoT messaging.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40012",
-      "key": "REQ-CODE-012",
-      "fields": {
-        "summary": "DNS Client Resolution",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must implement DNS client for hostname resolution with IPv4/IPv6 support and caching. Essential for name-based network connections.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40013",
-      "key": "REQ-CODE-013",
-      "fields": {
-        "summary": "HTTP Client/Server Support",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must provide HTTP protocol implementation with chunked encoding, authentication, and optional WebSocket upgrade. Required for web-based communication.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40014",
-      "key": "REQ-CODE-014",
-      "fields": {
-        "summary": "TLS/DTLS Security Stack",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Implementation must provide NX_SECURE_TLS with multiple cipher suites, certificate validation, and session management. Critical for secure communications.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40015",
-      "key": "REQ-CODE-015",
-      "fields": {
-        "summary": "Cryptographic Algorithm Support",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must implement crypto algorithms including AES, RSA, ECC, SHA, and MD5 for security operations. Essential for encryption and authentication.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40016",
-      "key": "REQ-CODE-016",
-      "fields": {
-        "summary": "IPSec Security Protocol",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must support IPSec with ESP and AH protocols when NX_IPSEC_ENABLE is defined. Required for network-layer security.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40017",
-      "key": "REQ-CODE-017",
-      "fields": {
-        "summary": "NAT Gateway Functionality",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Implementation must provide Network Address Translation with port mapping and connection tracking. Required for gateway and router applications.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40018",
-      "key": "REQ-CODE-018",
-      "fields": {
-        "summary": "Multicast Group Management",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must support IGMP for IPv4 and MLD for IPv6 multicast group membership. Essential for group communication applications.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40019",
-      "key": "REQ-CODE-019",
-      "fields": {
-        "summary": "Link Layer Frame Processing",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must handle Ethernet, VLAN tagging, and generic link layer protocols with driver abstraction. Critical for various network media support.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40020",
-      "key": "REQ-CODE-020",
-      "fields": {
-        "summary": "TCP/IP Offload Engine Support",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Implementation must support hardware TCP/IP offload when NX_ENABLE_TCPIP_OFFLOAD is defined. Required for high-performance networking hardware.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40021",
-      "key": "REQ-CODE-021",
-      "fields": {
-        "summary": "Packet Fragmentation Handling",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must implement IP fragmentation and reassembly for both IPv4 and IPv6 protocols. Essential for handling MTU limitations.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40022",
-      "key": "REQ-CODE-022",
-      "fields": {
-        "summary": "Network Statistics Collection",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must maintain comprehensive network statistics counters for protocols, interfaces, and error conditions. Required for network monitoring and debugging.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40023",
-      "key": "REQ-CODE-023",
-      "fields": {
-        "summary": "Thread-Safe API Design",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Implementation must provide thread-safe APIs with proper locking mechanisms for multi-threaded applications. Critical for concurrent network access.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40024",
-      "key": "REQ-CODE-024",
-      "fields": {
-        "summary": "Port-Specific Architecture Support",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must abstract hardware-specific details through nx_port.h with endianness handling and timer definitions. Essential for cross-platform portability.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40025",
-      "key": "REQ-CODE-025",
-      "fields": {
-        "summary": "Azure IoT Hub Integration",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must provide Azure IoT client with device twin, telemetry, and direct method support. Required for Azure IoT connectivity.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40026",
-      "key": "REQ-CODE-026",
-      "fields": {
-        "summary": "WebSocket Protocol Support",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Implementation must support WebSocket protocol with frame parsing and optional compression. Required for real-time web applications.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40027",
-      "key": "REQ-CODE-027",
-      "fields": {
-        "summary": "Time Synchronization Protocols",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "Code must implement SNTP client for network time synchronization and optional PTP support. Essential for time-critical applications.",
-        "verifiableByCodeOnly": true
-      }
-    },
-    {
-      "id": "40028",
-      "key": "REQ-CODE-028",
-      "fields": {
-        "summary": "Network Security Event Callbacks",
-        "issuetype": {
-          "id": "100",
-          "description": "Software design requirement",
-          "name": "Requirement"
-        },
-        "status": {
-          "id": "approved",
-          "name": "Approved"
-        },
-        "assignee": {
-          "displayName": "Unassigned",
-          "accountId": "unassigned"
-        },
-        "reporter": {
-          "displayName": "System",
-          "accountId": "system"
-        },
-        "description": "System must provide callback mechanisms for security events, connection state changes, and error notifications. Critical for application-level security monitoring.",
         "verifiableByCodeOnly": true
       }
     }
